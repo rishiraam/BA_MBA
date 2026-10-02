@@ -1,0 +1,7 @@
+if priority == "P1":
+
+    escalate=True
+
+else:
+
+    escalate=False

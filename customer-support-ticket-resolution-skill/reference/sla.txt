@@ -1,0 +1,15 @@
+def response_time(priority):
+
+    mapping = {
+
+        "P1":"30 Minutes",
+
+        "P2":"2 Hours",
+
+        "P3":"8 Hours",
+
+        "P4":"24 Hours"
+
+    }
+
+    return mapping[priority]

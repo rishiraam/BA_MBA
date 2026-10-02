@@ -1,0 +1,12 @@
+def determine_priority(severity):
+
+    if severity == "System Down":
+        return "P1"
+
+    if severity == "Major Feature":
+        return "P2"
+
+    if severity == "Minor Bug":
+        return "P3"
+
+    return "P4"
